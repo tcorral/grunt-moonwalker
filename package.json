@@ -6,6 +6,13 @@
   "scripts": {
     "test": "grunt test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcorral/grunt-moonwalker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tcorral/grunt-moonwalker.git/issues"
+  },
   "keywords": [
     "gruntplugin",
     "selenium",
@@ -19,7 +26,8 @@
     "grunt-contrib-nodeunit": "^0.4.1",
     "selenium-html-js-converter": "^0.2.9",
     "temp": "^0.8.1",
-    "wd-sync": "^1.2.5"
+    "wd-sync": "^1.2.5",
+    "moonwalker": "0.0.1"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
