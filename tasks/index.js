@@ -89,6 +89,9 @@ module.exports = function (grunt){
                                         port = options.saucelab.port || 80;
                                         slUsername = options.saucelabs.username;
                                         slAccessKey = options.saucelabs.accesskey;
+                                        if(!slUsername || !slAccessKey){
+                                            grunt.fatal('There is at least one argument needed to perform the connection to Saucelabs, please check your config.');
+                                        }
                                         remoteConfig = [host, port, slUsername, slAccessKey];
                                     }
 
