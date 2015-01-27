@@ -1,6 +1,6 @@
 {
   "name": "grunt-moonwalker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Grunt task to launch Selenium IDE HTML files tests",
   "main": "Gruntfile.js",
   "scripts": {
@@ -25,9 +25,7 @@
     "grunt-contrib-jshint": "^0.11.0",
     "grunt-contrib-nodeunit": "^0.4.1",
     "selenium-html-js-converter": "^0.2.9",
-    "temp": "^0.8.1",
-    "wd-sync": "^1.2.5",
-    "moonwalker": "0.0.1"
+    "moonwalker": "0.0.2"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
